@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Page developer </title>
+
+     <!-- css file link -->
+     <link rel="stylesheet" href="page_editor.css">
+</head>
+<body>
+
+    <div class="navbar">
+        
+        <a href="../About Us/aboutus.html">About us</a>
+        <a href="">Site Map</a>
+        <a href="../Student Details/Student_details.html">Student Details</a>
+        <a href="">Gallery</a>
+        <a href="../Quiz/QUIZ.html">Quiz</a>
+        <a href="">Shop</a>
+        <a href="">Feedback Form</a>
+        <a href="">Home</a>
+        
+      <div class="navbar-brand">
+            <img src="logo_1.jpg" width="120" height="70" alt="">
+        </div>
+    
+    </div>
+    <h1 style="padding-top: 110px;"> Page Editor </h1>
+    <hr>
+    <div class="intro"><b><i>
+        Name: Thulani Wijenayake<br>
+        Role: Student 3<br>
+        The following pages were edited by me !!</i></b>
+
+    </div>
+    <hr>
+    <div class="body">
+        
+        <img src="4829873_arrow_down_download_icon.png" alt="arrow down"> <a href="#bottom"> jump to bottom</a>
+        <br>
+        <br>
+        <b> Quiz</b>
+        <p>Created a quiz using HTML radio buttons<br>
+         &nbsp; Used javascript to evaluate the answers<br>
+         &nbsp;&nbsp;Used javascript to add a timer.</p>
+        <br>
+        <a href="../Quiz/QUIZ.html"> link to Quiz </a>
+        <br>
+        <br><br>
+        <b> Student Details</b>
+        <p>Created the student details page with HTML and CSS<br>
+         &nbsp;Added the hover effect and altered the visibility <br>
+         &nbsp;&nbsp;Shows the role of each student and their name when hovering over their image.</p>
+        <br>
+        <a href="../Student Details/Student_details.html"> link to Details </a>
+        <br>
+        <br><br>
+        <b> Adventure Tourism </b>
+        <p>Created the additional content page with HTML, CSS and Javascript<br>
+         &nbsp;Created an automatic slide show using HTML,CSS and Javascript <br>
+         &nbsp;&nbsp;Shows a small discription about tourist attractions when hovering over the images.</p>
+        <br>
+        <a href="../Adventure tourism/adventuretourism.html"> link to the Additional Content page </a>
+        <br>
+        <br><br>
+        <br>
+        <b> About Us Page </b>
+        <p>Created the about us page with HTML, CSS and Javascript<br>
+        &nbsp;Put a background image and changed the opacity of the image to make it look better. <br>
+        &nbsp;&nbsp;Shows a small discription about the agency inside a div tag</p>
+        <br>
+        <a href="../About Us/aboutus.html" id="bottom"> link to the About Us page </a>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Back To Top</button>
+    
+        <script>
+
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {
+            scrollFunction()
+            };
+            
+            function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              mybutton.style.display = "block";
+            } else {
+              mybutton.style.display = "none";
+            }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            }
+            </script>
+
+    </div>
+</body>

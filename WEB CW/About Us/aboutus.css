@@ -1,0 +1,209 @@
+body {
+    font-family: initial; 
+    margin:0;
+}
+
+/* Navigation bar*/
+
+.navbar {
+    overflow: hidden;
+    background-color: #2F603A;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 15px;
+    z-index: 9999;
+
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: initial;
+}
+
+.navbar a:hover {
+    background: #50CE76;
+    color: black;
+}
+.navbar .navbar-brand {
+    float: left;
+    display: block;
+    color: rgb(48, 67, 45);
+    text-align: center;
+    padding: 7.7px 12px;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand:hover {
+    background: rgb(48, 67, 45);
+    color: black;
+}
+
+.imagecontainer {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+.imagecontainer img {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Back to Top Button */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 5px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(48, 67, 45);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+
+/*-------------Footer----------*/
+
+    .container2 {
+        overflow: hidden;
+        background-color: #2F603A;
+        position: static;
+        bottom: 40px;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 20px;
+    }
+    .row  {
+      display:flex;
+      align-items:center
+    }
+
+
+    .footerleft {
+        margin-top: 50px;
+        padding: 0 20px;
+    }
+
+
+    .footerleft p {
+        color: #fff;
+        font-size: 12px !important;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 15px;
+    }
+
+    .footerleft p i {
+        width: 20px;
+        color: #999;
+    }
+
+
+    .paddingtop-bottom {
+        margin-top:50px;
+        padding: 0 20px;
+    } 
+    .footer-ul {
+        list-style-image: url('https://srilanka.travel/images/theames-new/bullet-arrow.png');
+        padding-left:0px;
+        margin-left:2px;
+     } 
+    .footer-ul li {
+        line-height: 24px;
+        font-size: 15px;
+        padding: 5px 0;
+    }
+
+    .footer-ul li a {
+        color: #a0a3a4;
+        transition: color 0.2s linear 0s, background- 0.2s linear 0s;
+        line-height: 20px;
+        display: block;
+    }
+
+    .footer-ul i {
+        margin-right: 10px;
+    }
+
+    .footer-ul li a:hover {
+        color: black;
+    }
+    .copyright {
+        min-height: 40px;
+        background-color: #000000;
+    }
+
+    .copyright p {
+        text-align: left;
+        color: #FFF;
+        padding: 10px 0;
+        margin-bottom: 0px;
+    }
+
+    .heading7 {
+        font-size: 21px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    .bottom_ul {
+        list-style-type: none;
+        float: right;
+        margin-bottom: 0px;
+    }
+
+    .bottom_ul li {
+        float: left;
+        line-height: 40px;
+    }
+
+    .bottom_ul li:after {
+        content: "/";
+        color: #FFF;
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+
+    .bottom_ul li a {
+        color: #FFF;
+        font-size: 12px;
+    }
+
+    .copyright {
+        padding: 0 0 5px 0;
+    } 
+    .copyright p span {
+        float: none;
+        width: 100%;
+        display:inline-block;
+    }
+
+    @media (max-width: 991px ) and ( min-width: 768px ) {
+        .footer-ul li a {
+            font-size: 14px;
+        }
+    }
+
+    body{
+        padding-bottom: 50px;
+    }
+
